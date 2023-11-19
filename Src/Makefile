@@ -1,4 +1,2 @@
-FILES = main.go
-
-all: $(FILES)
-	go run $(FILES)
+run/todo:	
+	@go run ./todo
