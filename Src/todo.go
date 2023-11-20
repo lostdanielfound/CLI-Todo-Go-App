@@ -64,6 +64,17 @@ func (t *Todos) Complete(index int) error {
  *
  * return: error on failure / nil on success
  */
+func (t *Todos) Uncomplete(index int) error {
+
+	list := *t
+	if index <= 0 || index > len(list) {
+		return errors.New("invalid index: out of range of Todo list")
+	}
+
+	// TODO: need to change Done flag of item properly
+
+	return nil
+}
 
 /**
  * Name: Delete
