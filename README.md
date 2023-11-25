@@ -1,5 +1,5 @@
 # CLI Todo App
-
+[![Go](https://github.com/lostdanielfound/CLI-Todo-Go-App/actions/workflows/go.yml/badge.svg)](https://github.com/lostdanielfound/CLI-Todo-Go-App/actions/workflows/go.yml)
 ### Overview
 ![Todo List view](Images/list.png)
 
