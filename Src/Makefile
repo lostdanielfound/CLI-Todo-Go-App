@@ -1,7 +1,8 @@
-BINS = todo.exe
+FILES = .\todo\main.go .\todo.go .\colors.go 
+BINS = .\bin\todo.exe
 
-all: .\todo\main.go
-	go build -o $(BINS) $^
+all: $(FILES)
+	go build -o $(BINS) .\todo\main.go
 
 clean:
 	rm $(BINS)
